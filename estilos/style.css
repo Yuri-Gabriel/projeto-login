@@ -26,7 +26,8 @@ body {
 main {
     width: 250px;
     height: 500px;
-    margin: 40px auto;
+    margin: auto;
+    margin-top: calc(100vh - 650px);
     border-radius: 20px;
     background-color: var(--Branco);
 }
