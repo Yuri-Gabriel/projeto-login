@@ -2,13 +2,9 @@
     body {
         background-image: linear-gradient(to bottom, var(--Roxo), #4C9099);
     }
-    main {
+    main section {
         width: 80vw;
         height: 300px;
-        border-radius: 20px;
-        margin-top: calc(100vh - 460px);
-    }
-    main section {
         flex-direction: row;
         border-radius: 20px;
     }
@@ -26,12 +22,9 @@
 }
 
 @media (min-width: 990px) {
-    main {
-        width: 95vw;
-        height: 400px;
-        margin-top: calc(100vh - 500px);
-    }
     main section {
+        width: 90vw;
+        height: 400px;
         flex-direction: row-reverse;
     }
     section div#imagem {
